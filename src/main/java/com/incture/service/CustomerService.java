@@ -1,14 +1,24 @@
 package com.incture.service;
 
 import com.incture.dto.CustomerDto;
-import com.sun.xml.internal.ws.developer.Serialization;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 
-@Service
+@Component
 public class CustomerService {
-    public HashMap<String, CustomerDto> getCustomerDetails() {
-        return null;
+    public ArrayList<CustomerDto> getCustomerDetails() {
+        ArrayList<CustomerDto> customerDetails = new ArrayList<CustomerDto>();
+        CustomerDto customerDto = new CustomerDto();
+        customerDto.setCustomerId("12345");
+        customerDto.setCustomerName("Incture");
+        customerDto.setAddress("123ABC");
+        customerDto.setStatus("In Progress");
+        customerDetails.add(customerDto);
+//        customerDetails.put("1",customerDto);
+
+        return customerDetails;
     }
 }

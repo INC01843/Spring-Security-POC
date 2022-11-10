@@ -16,5 +16,10 @@
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="repo.springsource.org" />
+      <option name="name" value="repo.springsource.org-snapshots" />
+      <option name="url" value="http://repo.springsource.org/libs-snapshot" />
+    </remote-repository>
   </component>
 </project>

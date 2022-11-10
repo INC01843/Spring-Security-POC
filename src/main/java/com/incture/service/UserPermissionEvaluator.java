@@ -17,7 +17,7 @@ public class UserPermissionEvaluator implements PermissionEvaluator {
 	public boolean hasPermission(Authentication authentication, Object targetDomainObject, Object permission) {
 		// TODO Auto-generated method stub
 		System.out.println("inside haspermission1:::"+permission);
-				return false;
+				return true;
 
 	}
 

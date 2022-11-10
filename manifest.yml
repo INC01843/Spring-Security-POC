@@ -1,0 +1,9 @@
+---
+applications:
+  - name: security-demo
+    buildpacks:
+      - sap_java_buildpack
+    path: target/security-demo.war
+    service:
+      -xsuaa-auth
+

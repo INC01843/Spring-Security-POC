@@ -1,12 +1,10 @@
-com\incture\controller\SupplierAPI.class
-com\incture\model\VendorEntity.class
-com\incture\configuration\ShedulerConfig.class
+com\incture\controller\CustomerAPI.class
 com\incture\configuration\MvcSecurityWebApplicationInitializer.class
-com\incture\constants\SchedulerConstants.class
-com\incture\model\PremiumFreightDto.class
+com\incture\service\CustomerService.class
 com\incture\reposotory\UserRepository$UserRole.class
 com\incture\configuration\SecurityWebApplicationInitializer.class
 com\incture\reposotory\UserRepository.class
 com\incture\configuration\SecurityConfig.class
-com\incture\service\VendorSevice.class
+com\incture\dto\CustomerDto.class
 com\incture\service\UserPermissionEvaluator.class
+com\incture\service\getUserDetails.class
